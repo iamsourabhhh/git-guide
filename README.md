@@ -14,6 +14,12 @@
 
   ```bash
   cd LXME
+  npm install
+  react-native link
+  # TO RUN ON ANDROID
+  react-native run-android
+  # TO RUN ON IOS
+  react-native run-ios
   ```
 
 - Remote branches
@@ -32,7 +38,6 @@
   - Make changes on your feature branch
 
   - To push code on remote develop.
-
 
 ```bash
 $ git checkout feature-branch
