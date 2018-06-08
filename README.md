@@ -6,9 +6,9 @@
   ```bash
   git clone git@github.com:abhishekmehta1/LXME.git
   ```
-- Checkout develop
+- Checkout developer
   ```bash
-  git checkout develop
+  git checkout developer
   ```
 - To run the project -
 
@@ -25,19 +25,19 @@
 - Remote branches
 
   - master
-  - develop
+  - developer
 
-- Push all the latest stable code on develop branches.
+- Push all the latest stable code on developer branches.
 
 - Don't push on master.
 
 - General Worlflow
 
-  - Make two copies for develop branch on your local, namely develop and your feature branch
+  - Make two copies for developer branch on your local, namely developer and your feature branch
 
   - Make changes on your feature branch
 
-  - To push code on remote develop.
+  - To push code on remote developer.
 
 ```bash
 $ git checkout feature-branch
@@ -45,12 +45,12 @@ $ git add .
 $ git commit -m "test commit"
 # update your local tree
 $ git fetch
-# rebase with remote develop
-$ git rebase origin/develop
-# now your feature branch is on top of remote develop
-$ git checkout develop
-# Update your local develop
+# rebase with remote developer
+$ git rebase origin/developer
+# now your feature branch is on top of remote developer
+$ git checkout developer
+# Update your local developer
 $ git pull --rebase
-# merge develop with feature branch
+# merge developer with feature branch
 git merge feature-branch
 ```
